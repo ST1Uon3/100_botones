@@ -39,3 +39,39 @@
     background-color: #6D28D9;
     color: #FFFFFF;
 }
+
+
+.btn-outline {
+    background-color: transparent;
+    border-color: #1565C0;
+    color: #1565C0;
+}
+.btn-border-thick{
+    border: solid 4px #111827;
+}
+.btn-border-dashed {
+    border-style: dashed;
+}
+.btn-border-dotted {
+    border-style: dotted;
+}
+.btn-rounded {
+    border-radius: 2rem;
+}
+.btn-pill {
+    border-radius: 9999px;
+}
+.btn-circle {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}
+.btn-small {
+    font-size: small;
+}
+.btn-large {
+    font-size: large;
+}
+.btn-full {
+    width: 100%;
+}
