@@ -1,0 +1,41 @@
+/*Fundamentos y colores-basico*/
+.btn-primary {
+    background-color: #1565C0;
+    color: #FFFFFF;
+}
+.btn-secondary {
+    background-color: #D1D5DB;
+    color: #111827;
+}
+.btn-success {
+    background-color: #16703C;
+    color: #FFFFFF;
+}
+.btn-danger {
+    background-color: #B91C1C;
+    color: #FFFFFF;
+}
+.btn-warning {
+    background-color: #FACC15;
+    color: #111827;
+}
+.btn-info {
+    background-color: #67E8F9;
+    color: #111827;
+}
+.btn-dark {
+    background-color: #1F2937;
+    color: #FFFFFF;
+}
+.btn-light {
+    background-color: #F9FAFB;
+    color: #111827;
+    border-color: #6B7280;
+}
+.btn-text {
+    color: #1565C0;
+}
+.btn-custom {
+    background-color: #6D28D9;
+    color: #FFFFFF;
+}
