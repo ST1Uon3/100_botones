@@ -1,154 +1,292 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Botones</title>
-
-    <link rel="stylesheet" href="styles.css">
-
-
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
-    <main>
+    <main class="py-5">
         <div class="container">
-            <div class="row">
+            <h1 class="text-center mb-5 fw-bold">Catálogo de Botones CSS</h1>
+            <div class="row g-4">
+
                 <div class="col-md-6">
-                    <h3>1.Fundamentos y colores-basico</h3>
-                    <button class="btn-primary">primario</button>
-                    <button class="btn-secondary">secundario</button>
-                    <button class="btn-success">éxito</button>
-                    <button class="btn-danger">peligro</button>
-                    <button class="btn-warning">advertencia</button>
-                    <button class="btn-info">información</button>
-                    <button class="btn-dark">oscuro</button>
-                    <button class="btn-light">claro</button>
-                    <button class="btn-text">texto</button>
-                    <button class="btn-custom">personalizado</button>
+                    <section class="section-card h-100">
+                        <h3>1. Fundamentos y colores — básico</h3>
+                        <div class="d-flex flex-wrap align-items-center gap-3">
+                            <button class="btn-primary">primario</button>
+                            <button class="btn-secondary">secundario</button>
+                            <button class="btn-success">éxito</button>
+                            <button class="btn-danger">peligro</button>
+                            <button class="btn-warning">advertencia</button>
+                            <button class="btn-info">información</button>
+                            <button class="btn-dark">oscuro</button>
+                            <button class="btn-light">claro</button>
+                            <button class="btn-text">texto</button>
+                            <button class="btn-custom">personalizado</button>
+                        </div>
+                    </section>
                 </div>
+
                 <div class="col-md-6">
-                    <h3>2.Bordes, tamaños y formas — básico</h3>
-                    <button class="btn-outline">Contorno</button>
-                    <button class="btn-border-thick">Borde grueso</button>
-                    <button class="btn-border-dashed">Borde discontinuo</button>
-                    <button class="btn-border-dotted">Borde punteado</button>
-                    <button class="btn-rounded">Esquinas redondeadas</button>
-                    <button class="btn-pill">Píldora</button>
-                    <button class="btn-circle" aria-label="estrellita"><svg xmlns="http://www.w3.org/2000/svg"
-                            width="16" height="16" fill="currentColor" class="bi bi-star" viewBox="0 0 16 16">
-                            <path
-                                d="M2.866 14.85c-.078.444.36.791.746.593l4.39-2.256 4.389 2.256c.386.198.824-.149.746-.592l-.83-4.73 3.522-3.356c.33-.314.16-.888-.282-.95l-4.898-.696L8.465.792a.513.513 0 0 0-.927 0L5.354 5.12l-4.898.696c-.441.062-.612.636-.283.95l3.523 3.356-.83 4.73zm4.905-2.767-3.686 1.894.694-3.957a.56.56 0 0 0-.163-.505L1.71 6.745l4.052-.576a.53.53 0 0 0 .393-.288L8 2.223l1.847 3.658a.53.53 0 0 0 .393.288l4.052.575-2.906 2.77a.56.56 0 0 0-.163.506l.694 3.957-3.686-1.894a.5.5 0 0 0-.461 0z" />
-                        </svg>Circular</button>
-                    <button class="btn-small">Pequeño</button>
-                    <button class="btn-large">Grande</button>
-                    <button class="btn-full">Ancho completo</button>
+                    <section class="section-card h-100">
+                        <h3>2. Bordes, tamaños y formas — básico</h3>
+                        <div class="d-flex flex-wrap align-items-center gap-3">
+                            <button class="btn-outline">Contorno</button>
+                            <button class="btn-border-thick">Borde grueso</button>
+                            <button class="btn-border-dashed">Borde discontinuo</button>
+                            <button class="btn-border-dotted">Borde punteado</button>
+                            <button class="btn-rounded">Esquinas redondeadas</button>
+                            <button class="btn-pill">Píldora</button>
+                            <button class="btn-circle" aria-label="estrellita">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                    class="bi bi-star" viewBox="0 0 16 16">
+                                    <path
+                                        d="M2.866 14.85c-.078.444.36.791.746.593l4.39-2.256 4.389 2.256c.386.198.824-.149.746-.592l-.83-4.73 3.522-3.356c.33-.314.16-.888-.282-.95l-4.898-.696L8.465.792a.513.513 0 0 0-.927 0L5.354 5.12l-4.898.696c-.441.062-.612.636-.283.95l3.523 3.356-.83 4.73zm4.905-2.767-3.686 1.894.694-3.957a.56.56 0 0 0-.163-.505L1.71 6.745l4.052-.576a.53.53 0 0 0 .393-.288L8 2.223l1.847 3.658a.53.53 0 0 0 .393.288l4.052.575-2.906 2.77a.56.56 0 0 0-.163.506l.694 3.957-3.686-1.894a.5.5 0 0 0-.461 0z" />
+                                </svg>Circular
+                            </button>
+                            <button class="btn-small">Pequeño</button>
+                            <button class="btn-large">Grande</button>
+                            <button class="btn-full">Ancho completo</button>
+                        </div>
+                    </section>
                 </div>
+
                 <div class="col-md-6">
-                    <h3>3.Tipografía y sombras — básico a intermedio</h3>
-                    <button class="btn-uppercase">Mayúsculas</button>
-                    <button class="btn-spaced">Espaciado</button>
-                    <button class="btn-bold">Negrita</button>
-                    <button class="btn-elegant">Elegante</button>
-                    <button class="btn-underline">Subrayado</button>
-                    <button class="btn-shadow-soft">Sombra suave</button>
-                    <button class="btn-shadow-strong">Sombra pronunciada</button>
-                    <button class="btn-shadow-color">Sombra de color</button>
-                    <button class="btn-relief">Relieve</button>
-                    <button class="btn-text-glow">Texto brillante</button>
-
+                    <section class="section-card h-100">
+                        <h3>3. Tipografía y sombras — básico a intermedio</h3>
+                        <div class="d-flex flex-wrap align-items-center gap-3">
+                            <button class="btn-uppercase">Mayúsculas</button>
+                            <button class="btn-spaced">Espaciado</button>
+                            <button class="btn-bold">Negrita</button>
+                            <button class="btn-elegant">Elegante</button>
+                            <button class="btn-underline">Subrayado</button>
+                            <button class="btn-shadow-soft">Sombra suave</button>
+                            <button class="btn-shadow-strong">Sombra pronunciada</button>
+                            <button class="btn-shadow-color">Sombra de color</button>
+                            <button class="btn-relief">Relieve</button>
+                            <button class="btn-text-glow">Texto brillante</button>
+                        </div>
+                    </section>
                 </div>
+
                 <div class="col-md-6">
-                    <h3>4. Degradados — intermedio</h3>
-                    <button class="btn-gradient-horizontal">Horizontal</button>
-                    <button class="btn-gradient-vertical">Vertical</button>
-                    <button class="btn-gradient-diagonal">Diagonal</button>
-                    <button class="btn-gradient-three">Tres colores</button>
-                    <button class="btn-gradient-radial">Radial</button>
-                    <button class="btn-gradient-sunset">Atardecer</button>
-                    <button class="btn-gradient-ocean">Océano</button>
-                    <button class="btn-gradient-pastel">Pastel </button>
-                    <button class="btn-gradient-border">Borde degradado</button>
-                    <button class="btn-gradient-hover">Degradado interactivo</button>
+                    <section class="section-card h-100">
+                        <h3>4. Degradados — intermedio</h3>
+                        <div class="d-flex flex-wrap align-items-center gap-3">
+                            <button class="btn-gradient-horizontal">Horizontal</button>
+                            <button class="btn-gradient-vertical">Vertical</button>
+                            <button class="btn-gradient-diagonal">Diagonal</button>
+                            <button class="btn-gradient-three">Tres colores</button>
+                            <button class="btn-gradient-radial">Radial</button>
+                            <button class="btn-gradient-sunset">Atardecer</button>
+                            <button class="btn-gradient-ocean">Océano</button>
+                            <button class="btn-gradient-pastel">Pastel</button>
+                            <button class="btn-gradient-border">Borde degradado</button>
+                            <button class="btn-gradient-hover">Degradado interactivo</button>
+                        </div>
+                    </section>
                 </div>
+
                 <div class="col-md-6">
-                    <h3>5. Estados e interacción — intermedio</h3>
-                    <button class="btn-hover-background">Cambio de fondo</button>
-                    <button class="btn-hover-text">Cambio de texto</button>
-                    <button class="btn-hover-border">Cambio de borde</button>
-                    <button class="btn-hover-shadow">Sombra al interactuar </button>
-                    <button class="btn-hover-underline">Subrayado interactivo </button>
-                    <button class="btn-active">Presionado</button>
-                    <button class="btn-focus">Foco destacado</button>
-                    <button class="">Deshabilitado</button>
-                    <button class="btn-transition-slow">Transición lenta</button>
-                    <button class="btn-transition-stagger">Transición escalonada</button>
+                    <section class="section-card h-100">
+                        <h3>5. Estados e interacción — intermedio</h3>
+                        <div class="d-flex flex-wrap align-items-center gap-3">
+                            <button class="btn-hover-background">Cambio de fondo</button>
+                            <button class="btn-hover-text">Cambio de texto</button>
+                            <button class="btn-hover-border">Cambio de borde</button>
+                            <button class="btn-hover-shadow">Sombra al interactuar</button>
+                            <button class="btn-hover-underline">Subrayado interactivo</button>
+                            <button class="btn-active">Presionado</button>
+                            <button class="btn-focus">Foco destacado</button>
+                            <button disabled>Deshabilitado</button>
+                            <button class="btn-transition-slow">Transición lenta</button>
+                            <button class="btn-transition-stagger">Transición escalonada</button>
+                        </div>
+                    </section>
                 </div>
+
                 <div class="col-md-6">
-                    <h3>6. Transformaciones — intermedio</h3>
-                    <button class="btn-grow">Crecer</button>
-                    <button class="btn-shrink">Reducir</button>
-                    <button class="btn-lift">Elevar</button>
-                    <button class="btn-move-right">Desplazar</button>
-                    <button class="btn-rotate">Rotar</button>
-                    <button class="btn-skew">Inclinar</button>
-                    <button class="btn-press">Presionar</button>
-                    <button class="btn-perspective">Perspectiva</button>
-                    <button class="btn-icon-move">
-                        Icono en movimiento <span>→</span>
-                    </button>
-                    <button class="btn-transform-combined">Combinado</button>
+                    <section class="section-card h-100">
+                        <h3>6. Transformaciones — intermedio</h3>
+                        <div class="d-flex flex-wrap align-items-center gap-3">
+                            <button class="btn-grow">Crecer</button>
+                            <button class="btn-shrink">Reducir</button>
+                            <button class="btn-lift">Elevar</button>
+                            <button class="btn-move-right">Desplazar</button>
+                            <button class="btn-rotate">Rotar</button>
+                            <button class="btn-skew">Inclinar</button>
+                            <button class="btn-press">Presionar</button>
+                            <button class="btn-perspective">Perspectiva</button>
+                            <button class="btn-icon-move">Icono en movimiento <span>→</span></button>
+                            <button class="btn-transform-combined">Combinado</button>
+                        </div>
+                    </section>
                 </div>
+
                 <div class="col-md-6">
-                    <h3>7. Iconos e imágenes — intermedio a avanzado</h3>
-                    <button class="btn-icon-left">
-                        <span>←</span> Icono izquierdo
-                    </button>
-
-                    <button class="btn-icon-right">
-                        Icono derecho <span>→</span>
-                    </button>
-
-                    <button class="btn-icon-only" aria-label="Buscar">
-                        <span aria-hidden="true">🔍</span>
-                    </button>
-
-                    <button class="btn-download">
-                        <span>↓</span> Descarga
-                    </button>
-
-                    <button class="btn-image-background">
-                        <img src="img/flor.jpg" alt="flor">
-                        <span>Imagen de fondo</span>
-                    </button>
-                    <button class="btn-image-overlay">
-                        <img src="img/flor.jpg" alt="flor">
-                        <span>Imagen con capa</span>
-                    </button>
-
-                    <button class="btn-avatar">
-                        <img src="img/flor.jpg" alt="flor">
-                        <span>Avatar y texto</span>
-                    </button>
-
-                    <button class="btn-icon-separated">
-                        <span class="icon">★</span>
-                        <span class="text">Icono en zona separada</span>
-                    </button>
-
-                    <button class="btn-image-hover">
-                        <img src="img/flor.jpg" alt="flor">
-                        <span>Imagen al interactuar</span>
-                    </button>
-
-                    <button class="btn-icon-reveal">
-                        <span>Icono revelado</span>
-                        <span class="icon">→</span>
-                    </button>
-                    
+                    <section class="section-card h-100">
+                        <h3>7. Iconos e imágenes — intermedio a avanzado</h3>
+                        <div class="d-flex flex-wrap align-items-center gap-3">
+                            <button class="btn-icon-left"><span>←</span> Icono izquierdo</button>
+                            <button class="btn-icon-right">Icono derecho <span>→</span></button>
+                            <button class="btn-icon-only" aria-label="Buscar"><span
+                                    aria-hidden="true">🔍</span></button>
+                            <button class="btn-download"><span>↓</span> Descarga</button>
+                            <button class="btn-image-background">
+                                <img src="img/flor.jpg" alt="flor">
+                                <span>Imagen de fondo</span>
+                            </button>
+                            <button class="btn-image-overlay">
+                                <img src="img/flor.jpg" alt="flor">
+                                <span>Imagen con capa</span>
+                            </button>
+                            <button class="btn-avatar">
+                                <img src="img/flor.jpg" alt="flor">
+                                <span>Avatar y texto</span>
+                            </button>
+                            <button class="btn-icon-separated">
+                                <span class="icon">★</span>
+                                <span class="text">Icono en zona separada</span>
+                            </button>
+                            <button class="btn-image-hover">
+                                <img src="img/flor.jpg" alt="flor">
+                                <span>Imagen al interactuar</span>
+                            </button>
+                            <button class="btn-icon-reveal">
+                                <span>Icono revelado</span>
+                                <span class="icon">→</span>
+                            </button>
+                        </div>
                 </div>
+
+                <div class="col-md-6">
+                    <section class="section-card h-100">
+                        <h3>8. Efectos con pseudoelementos — avanzado</h3>
+                        <div class="d-flex flex-wrap align-items-center gap-3">
+                            <button class="btn-fill-left">
+                                <span>Relleno lateral</span>
+                            </button>
+                            <button class="btn-fill-bottom">
+                                <span>Relleno inferior</span>
+                            </button>
+                            <button class="btn-fill-center">
+                                <span>Relleno central</span>
+                            </button>
+                            <button class="btn-shine">
+                                Brillo deslizante
+                            </button>
+                            <button class="btn-underline-expand">
+                                <span>Línea inferior</span>
+                            </button>
+                            <button class="btn-corners">
+                                Esquinas destacadas
+                            </button>
+                            <button class="btn-double-layer">
+                                <span>Doble capa</span>
+                            </button>
+                            <button class="btn-circle-expand">
+                                <span>Círculo expansivo</span>
+                            </button>
+                            <button class="btn-border-reveal">
+                                <span>Borde animado</span>
+                            </button>
+                            <button class="btn-diagonal-sweep">
+                                <span>Corte diagonal</span>
+                            </button>
+                        </div>
+                    </section>
+                </div>
+
+                <div class="col-md-6">
+                    <section class="section-card h-100">
+                        <h3>9. Animaciones CSS — avanzado</h3>
+                        <div class="d-flex flex-wrap align-items-center gap-3">
+                            <button class="btn-pulse">
+                                Pulso
+                            </button>
+                            <button class="btn-heartbeat">
+                                Latido
+                            </button>
+                            <button class="btn-float">
+                                Flotante
+                            </button>
+                            <button class="btn-shake">
+                                Sacudida
+                            </button>
+                            <button class="btn-bounce">
+                                Rebote
+                            </button>
+                            <button class="btn-glow-pulse">
+                                Brillo pulsante
+                            </button>
+                            <button class="btn-gradient-motion">
+                                Degradado en movimiento
+                            </button>
+                            <button class="btn-icon-spin">
+                                <span>↻</span> Icono giratorio
+                            </button>
+                            <button class="btn-loading">
+                                <span class="spinner"></span> Cargando
+                            </button>
+                            <button class="btn-sequence">
+                                Secuencia
+                            </button>
+                        </div>
+                    </section>
+                </div>
+
+                <div class="col-md-6">
+                    <section class="section-card h-100">
+                        <h3>10. Botones de diseño avanzado — desafío final</h3>
+                        <div class="d-flex flex-wrap align-items-center gap-3">
+                            <button class="btn-neon">
+                                Neón
+                            </button>
+                            <div class="glass-env p-2 rounded">
+                                <button class="btn-glass">
+                                    Cristal
+                                </button>
+                            </div>
+                            <div class="neumorphic-env p-2 rounded">
+                                <button class="btn-neumorphic">
+                                    Neumórfico
+                                </button>
+                            </div>
+                            <button class="btn-retro-3d">
+                                Retro 3D
+                            </button>
+                            <button class="btn-metallic">
+                                Metálico
+                            </button>
+                            <button class="btn-rainbow-border">
+                                Borde arcoíris
+                            </button>
+                            <button class="btn-double-text" aria-label="Doble texto">
+                                <span class="text-initial" aria-hidden="true">Doble texto</span>
+                                <span class="text-hover" aria-hidden="true">Revelado</span>
+                            </button>
+                            <button class="btn-cinematic">
+                                <img src="img/flor.jpg" alt="flor">
+                                <span>Imagen cinematográfica</span>
+                            </button>
+                            <button class="btn-premium">
+                                <span class="icon">✦</span>
+                                <span>Acción premium</span>
+                            </button>
+                            <button class="btn-original"> 
+                                <img src="img/flor.jpg" alt="flor">
+                                <span>Diseño original</span> 
+                            </button>
+                        </div>
+                    </section>
+                </div>
+
             </div>
         </div>
     </main>
