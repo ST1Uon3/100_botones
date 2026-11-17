@@ -371,6 +371,159 @@
 
 
 
+/*7. Iconos e imágenes — intermedio a avanzado*/
+.btn-icon-left {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.btn-icon-right {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.btn-icon-only {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn-download {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.btn-image-background {
+  position: relative;
+  overflow: hidden;
+  color: #FFFFFF;
+}
+.btn-image-background img {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: 0;
+}
+.btn-image-background::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 1;
+}
+.btn-image-background span {
+  position: relative;
+  z-index: 2;
+}
+
+.btn-image-overlay {
+  position: relative;
+  overflow: hidden;
+  color: #FFFFFF;
+}
+.btn-image-overlay img {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: 0;
+}
+.btn-image-overlay::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-color: rgba(0, 0, 0, 0.55);
+  z-index: 1;
+}
+.btn-image-overlay span {
+  position: relative;
+  z-index: 2;
+}
+
+.btn-avatar {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+}
+.btn-avatar img {
+  width: 24px;
+  height: 24px;
+  max-width: 24px;
+  max-height: 24px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.btn-icon-separated {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+}
+.btn-icon-separated .icon {
+  display: inline-flex;
+  align-items: center;
+  border-right: 1px solid currentColor;
+  padding-right: 8px;
+}
+
+.btn-image-hover {
+  position: relative;
+  overflow: hidden;
+  color: #FFFFFF;
+}
+.btn-image-hover img {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: 0;
+  transition: transform 0.3s ease;
+}
+.btn-image-hover:hover img,
+.btn-image-hover:focus img {
+  transform: scale(1.1);
+}
+.btn-image-hover span {
+  position: relative;
+  z-index: 1;
+}
+
+.btn-icon-reveal {
+  display: inline-flex;
+  align-items: center;
+  overflow: hidden;
+}
+.btn-icon-reveal .icon {
+  display: inline-block;
+  max-width: 0;
+  opacity: 0;
+  transform: translateX(-8px);
+  transition: max-width 0.3s ease, opacity 0.3s ease, transform 0.3s ease, margin-left 0.3s ease;
+}
+.btn-icon-reveal:hover .icon,
+.btn-icon-reveal:focus .icon {
+  max-width: 24px;
+  opacity: 1;
+  transform: translateX(0);
+  margin-left: 8px;
+}
+
+
+
+
+
+
+
+
+
+
 
 
 
