@@ -279,3 +279,102 @@
   transform: translateY(-3px);
 }
 
+
+/*6. Transformaciones — intermedio*/
+.btn-grow {
+  transition: transform 0.2s ease;
+}
+.btn-grow:hover {
+    transform: scale(1.08)
+}
+
+.btn-shrink {
+  transition: transform 0.2s ease;
+}
+.btn-shrink:hover,
+.btn-shrink:focus {
+  transform: scale(0.95);
+}
+
+.btn-lift {
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+.btn-lift:hover,
+.btn-lift:focus {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.btn-move-right {
+  transition: transform 0.2s ease;
+}
+.btn-move-right:hover,
+.btn-move-right:focus {
+  transform: translateX(6px);
+}
+
+.btn-rotate {
+  transition: transform 0.2s ease;
+}
+.btn-rotate:hover,
+.btn-rotate:focus {
+  transform: rotate(3deg);
+}
+
+.btn-skew {
+  transition: transform 0.2s ease;
+}
+.btn-skew:hover,
+.btn-skew:focus {
+  transform: skewX(-10deg);
+}
+
+.btn-press {
+  transition: transform 0.1s ease;
+}
+.btn-press:active {
+  transform: translateY(2px);
+}
+
+.btn-perspective {
+  transform: perspective(500px) rotateX(0deg) rotateY(0deg);
+  transition: transform 0.3s ease;
+}
+.btn-perspective:hover,
+.btn-perspective:focus {
+  transform: perspective(500px) rotateX(12deg) rotateY(-12deg);
+}
+
+.btn-icon-move svg,
+.btn-icon-move i,
+.btn-icon-move span {
+  display: inline-block;
+  transition: transform 0.2s ease;
+}
+.btn-icon-move:hover svg,
+.btn-icon-move:hover i,
+.btn-icon-move:hover span,
+.btn-icon-move:focus svg,
+.btn-icon-move:focus i,
+.btn-icon-move:focus span {
+  transform: translateX(4px);
+}
+
+.btn-transform-combined {
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+.btn-transform-combined:hover,
+.btn-transform-combined:focus {
+  transform: translateY(-4px) scale(1.03);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+
+
+
+
+
+
+
+
+
